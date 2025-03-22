@@ -16,7 +16,7 @@ days_in_month = {
 # Function to check if a year is a leap year
 def is_leap_year(year):
     if (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0):
-        return True
+  return True
     return False
 # Ask the user to input the month number
 month = int(input("Enter the month number (1-12): "))

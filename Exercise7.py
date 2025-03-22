@@ -4,6 +4,6 @@ names = ["Jake", "Zac", "Ian", "Ron", "Sam", "Dave"]
 search_term = input("Enter the name you want to search for: ")
 # Search for the term in the list
 if search_term in names:
-    print(f"{search_term} found in the list.")
+     print(f"{search_term} found in the list.")
 else:
     print(f"{search_term} not found in the list.")

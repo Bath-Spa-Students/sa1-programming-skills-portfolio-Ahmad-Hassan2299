@@ -6,7 +6,7 @@ max_attempts = 5
 # Loop until the password is correct or maximum attempts are reached
 while attempts < max_attempts:
     # Ask the user to enter the password
-    entered_password = input("Enter the password: ")
+entered_password = input("Enter the password: ")
     # Check if the entered password is correct
     if entered_password == correct_password:
         print("Password correct. Access granted.")

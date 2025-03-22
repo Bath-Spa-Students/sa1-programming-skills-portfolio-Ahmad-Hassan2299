@@ -4,7 +4,7 @@ def quiz(question, capital):
     answer = input(question + " ")
     # Check if the answer is correct (ignoring capitalization)
     if answer.lower() == capital.lower():
-        print("Well Done!")
+        print("Well Done! ")
     else:
         print("Ooops! The correct answer is " + capital + ".")
 # dictionary of countries and their capitals

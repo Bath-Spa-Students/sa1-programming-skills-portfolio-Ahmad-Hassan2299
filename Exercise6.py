@@ -24,4 +24,4 @@ print()  # Adding a blank line for better readability
 
 # Loop that counts up from 100 to 200 in increments of 5
 for i in range(100, 201, 5):
-    print(i)
+ print(i)

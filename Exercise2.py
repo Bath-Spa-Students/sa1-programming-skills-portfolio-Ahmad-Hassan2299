@@ -6,11 +6,11 @@ def get_user_input():
     hometown = input("Enter your hometown: ")
     # Validate age input
     while True:
-        age = input("Enter your age: ")
+      age = input("Enter your age: ")
         if age.isdigit():
             age = int(age)
             break
-        else:
+      else:
             print("Please enter a valid age (intiger value).")
     return name, hometown, age
 # Geting user input

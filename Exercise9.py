@@ -17,4 +17,4 @@ def main():
         print("Invalid input. Please enter an integer.")
 if __name__ == "__main__":
     # Call the main function
-    main()
+      main()
